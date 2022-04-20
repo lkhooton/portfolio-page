@@ -1,6 +1,5 @@
 body {
-  
-  background-color: rgba(52, 217, 140, .3)
+  background-image: url('Images/flowers.jpg');
   
 }
 header{
@@ -36,11 +35,9 @@ h1 {
   font-family: 'Baloo Chettan 2', cursive;
   font-size: 100px;
 }
-p {
-  text-align: center;
-}
 h3 {
   text-align: center;
+  font-family: 'Baloo Chettan 2', cursive;
 }
 
 .logos {
