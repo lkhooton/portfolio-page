@@ -79,6 +79,11 @@ h3 {
   font-family: 'Tangerine';
   font-size: 65px;
 }
+ul {
+  text-align: center;
+  font-family: 'Baloo Chettan 2', cursive;
+  font-size: 20px;
+}
 .logos {
   display: block;
   margin-right: auto;
@@ -92,11 +97,7 @@ h3 {
 #skills2{
   margin-top: 20px;
 }
-#studying {
-  text-align: center;
-  font-family: 'Baloo Chettan 2', cursive;
-  font-size: 20px;
-}
+
 /*END TECH SKILLS STYLING*/
 
 /*PROJECTS SECTION STYLING*/
@@ -149,9 +150,10 @@ h3 {
   display: block;
   margin-right: auto;
   margin-left: auto;
+  margin-bottom: 45px;
   width: 50%;
   background-color: #f78b7480;
-  padding: 45px;
+  padding: 25px;
   border-radius: 25px;
   text-align: center;
 }
@@ -160,6 +162,12 @@ h3 {
   opacity: 50%;
 }
 /*END CONTACT SECTION STYLING*/
+
+/*FOOTER STYLING*/
+#footer {
+  background: #a9dffc;
+  
+}
 
 
 
