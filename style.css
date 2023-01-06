@@ -129,10 +129,26 @@ ul {
   max-height:80%;
   border-radius: 20px;
   box-shadow: 0 1px 0 #666, 0 5px 0 #444, 0 6px 6px rgba(0,0,0,0.6);
+  transition: all .2s ease-in-out;
 }
 
-
+#img:hover {
+  transform: scale(1.1);
+}
 /*END PROJECT SECTION STYLING*/
+
+/*RESUME SECTION STYLING*/
+#ressec{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#resume {
+  max-width: 50%;
+  max-height: 50%;
+}
+/*END RESUME SECTION STYLING*/
 
 /*CONTACT SECTION STYLING*/
 #btn {
@@ -150,6 +166,11 @@ ul {
   text-decoration: none;
   box-shadow: 0 1px 0 #666, 0 5px 0 #444, 0 6px 6px rgba(0,0,0,0.6);
   cursor: pointer;
+  transition: all .2s ease-in-out;
+}
+
+#email-btn:hover {
+  transform: scale(1.1);
 }
 
 #icon{
