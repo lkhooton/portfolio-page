@@ -9,7 +9,7 @@ body, html {
 
 /*NAVBAR STYLES*/
 nav{
-  background-color: #e1ebe8;
+  background-color: #e9fdfe;
   width: 100%;
   text-align: center;
   padding-bottom: 1px;
@@ -68,6 +68,9 @@ h2 {
   margin-top: 100px;
   margin-left: 100px;
   margin-right: 100px;
+  background-color: #e9fdfe;
+  padding: 45px;
+  border-radius: 25px;
 
 }
 /*END INTRO STYLES*/
