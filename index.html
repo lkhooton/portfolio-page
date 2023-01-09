@@ -9,6 +9,7 @@
 	<link href="https://fonts.googleapis.com" rel="preconnect">
 	<link href="https://fonts.gstatic.com" rel="preconnect">
 	<link href="https://fonts.googleapis.com/css2?family=Baloo+Chettan+2&family=Tangerine&display=swap" rel="stylesheet">
+	
 </head>
 <body>
 	<!--NAVBAR SECTION-->
@@ -23,6 +24,9 @@
 				</li>
 				<li>
 					<a href="#projects">Projects</a>
+				</li>
+				<li>
+					<a href="#resume">Resume</a>
 				</li>
 				<li>
 					<a href="#contact">Contact</a>
@@ -78,9 +82,13 @@
 	<!--END PROJECTS SECTION-->
 
 	<!---RESUME SECTION-->
-	<h3>Resume</h3>
-	<div id="ressec">
-	<img id="resume" src="Images/Lauren Hooton.png" alt="Image of Resume">
+	<h3 id="resume">Resume</h3>
+	<img id="myImg" src="images/Lauren Hooton.png" alt="Lauren Hooton Resume" width="200" height="200" >
+	<div id="myModal" class="modal">
+		<span class="close">&times;</span>
+		<img class="modal-content" id="img01">
+		<div id="caption"></div>
+	</div>
 	</div>
 	<!--END RESUME SECTION-->
 
@@ -108,5 +116,6 @@
 	</footer>
 	
 	<!--END FOOTER SECTION-->
+	<script src="scripts/main.js"></script>
 </body>
 </html>
