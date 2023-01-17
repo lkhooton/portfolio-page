@@ -156,6 +156,18 @@ ul {
   transform: scale(1.1);
 }
 
+#resbackground {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  width: 50%;
+  height: 200px;
+  background-color: #89bc8980;
+  padding: 45px;
+  border-radius: 25px;
+  text-align: center;
+}
+
 /* The Modal (background) */
 .modal {
   display: none; /* Hidden by default */
