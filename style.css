@@ -299,5 +299,15 @@ ul {
   
 }
 
+/*mobile styling*/
 
+@media (max-width: 480px){
+  #aboutme {
+    display: block;
+    margin: auto;
+  }
+  .proj-tile {
+    
+  }
+}
 
