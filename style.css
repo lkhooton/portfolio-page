@@ -296,7 +296,6 @@ ul {
 /*FOOTER STYLING*/
 #footer {
   background: #a9dffc;
-  
 }
 
 /*mobile styling*/
@@ -306,8 +305,19 @@ ul {
     display: block;
     margin: auto;
   }
-  .proj-tile {
-    
+  #proj-tile1, #proj-tile2, #proj-tile3 {
+        display: grid;
   }
 }
+.projects {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  }
+  
+  #proj-tile1 { grid-area: 1 / 2 / 2 / 3; }
+  #proj-tile2 { grid-area: 2 / 2 / 3 / 3; }
+  #proj-tile3 { grid-area: 3 / 2 / 4 / 3; };
 
